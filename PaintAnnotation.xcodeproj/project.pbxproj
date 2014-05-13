@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434DA878191A26D300552F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA877191A26D300552F85 /* Foundation.framework */; };
+		434DA87A191A26D300552F85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA879191A26D300552F85 /* CoreGraphics.framework */; };
+		434DA87C191A26D300552F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA87B191A26D300552F85 /* UIKit.framework */; };
+		434DA882191A26D300552F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 434DA880191A26D300552F85 /* InfoPlist.strings */; };
+		434DA884191A26D300552F85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA883191A26D300552F85 /* main.m */; };
+		434DA888191A26D300552F85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA887191A26D300552F85 /* AppDelegate.m */; };
+		434DA88A191A26D300552F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DA889191A26D300552F85 /* Images.xcassets */; };
+		434DA891191A26D400552F85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA890191A26D400552F85 /* XCTest.framework */; };
+		434DA892191A26D400552F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA877191A26D300552F85 /* Foundation.framework */; };
+		434DA893191A26D400552F85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434DA87B191A26D300552F85 /* UIKit.framework */; };
+		434DA89B191A26D400552F85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 434DA899191A26D400552F85 /* InfoPlist.strings */; };
+		434DA89D191A26D400552F85 /* PaintAnnotationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA89C191A26D400552F85 /* PaintAnnotationTests.m */; };
+		434DA8A8191A271400552F85 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA8A7191A271400552F85 /* PaintViewController.m */; };
+		434DA8AB191A273F00552F85 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA8AA191A273F00552F85 /* MainViewController.m */; };
+		434DA8B0191A28D700552F85 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA8AD191A28D700552F85 /* MainView.m */; };
+		434DA8B1191A28D700552F85 /* Squiggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DA8AF191A28D700552F85 /* Squiggle.m */; };
+		435CF0F61920B81800028B02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435CF0F51920B81800028B02 /* AVFoundation.framework */; };
+		43BA3F4E1921FFA40085A670 /* PaintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BA3F4D1921FFA40085A670 /* PaintViewController.xib */; };
+		43E1E8AC1920DFB5004AFF3E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E1E8AB1920DFB5004AFF3E /* HomeViewController.m */; };
+		43E1E8AE1920E2DB004AFF3E /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 43E1E8AD1920E2DB004AFF3E /* img.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434DA894191A26D400552F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434DA86C191A26D300552F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434DA873191A26D300552F85;
+			remoteInfo = PaintAnnotation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434DA874191A26D300552F85 /* PaintAnnotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintAnnotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		434DA877191A26D300552F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		434DA879191A26D300552F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		434DA87B191A26D300552F85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		434DA87F191A26D300552F85 /* PaintAnnotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintAnnotation-Info.plist"; sourceTree = "<group>"; };
+		434DA881191A26D300552F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		434DA883191A26D300552F85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		434DA885191A26D300552F85 /* PaintAnnotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaintAnnotation-Prefix.pch"; sourceTree = "<group>"; };
+		434DA886191A26D300552F85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		434DA887191A26D300552F85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		434DA889191A26D300552F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		434DA88F191A26D400552F85 /* PaintAnnotationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintAnnotationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434DA890191A26D400552F85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		434DA898191A26D400552F85 /* PaintAnnotationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintAnnotationTests-Info.plist"; sourceTree = "<group>"; };
+		434DA89A191A26D400552F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		434DA89C191A26D400552F85 /* PaintAnnotationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintAnnotationTests.m; sourceTree = "<group>"; };
+		434DA8A6191A271400552F85 /* PaintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
+		434DA8A7191A271400552F85 /* PaintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewController.m; sourceTree = "<group>"; };
+		434DA8A9191A273F00552F85 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		434DA8AA191A273F00552F85 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		434DA8AC191A28D700552F85 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		434DA8AD191A28D700552F85 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		434DA8AE191A28D700552F85 /* Squiggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Squiggle.h; sourceTree = "<group>"; };
+		434DA8AF191A28D700552F85 /* Squiggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Squiggle.m; sourceTree = "<group>"; };
+		435CF0F51920B81800028B02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		43BA3F4D1921FFA40085A670 /* PaintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaintViewController.xib; sourceTree = "<group>"; };
+		43E1E8AA1920DFB5004AFF3E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		43E1E8AB1920DFB5004AFF3E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		43E1E8AD1920E2DB004AFF3E /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434DA871191A26D300552F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435CF0F61920B81800028B02 /* AVFoundation.framework in Frameworks */,
+				434DA87A191A26D300552F85 /* CoreGraphics.framework in Frameworks */,
+				434DA87C191A26D300552F85 /* UIKit.framework in Frameworks */,
+				434DA878191A26D300552F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434DA88C191A26D400552F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434DA891191A26D400552F85 /* XCTest.framework in Frameworks */,
+				434DA893191A26D400552F85 /* UIKit.framework in Frameworks */,
+				434DA892191A26D400552F85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434DA86B191A26D300552F85 = {
+			isa = PBXGroup;
+			children = (
+				434DA87D191A26D300552F85 /* PaintAnnotation */,
+				434DA896191A26D400552F85 /* PaintAnnotationTests */,
+				434DA876191A26D300552F85 /* Frameworks */,
+				434DA875191A26D300552F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434DA875191A26D300552F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434DA874191A26D300552F85 /* PaintAnnotation.app */,
+				434DA88F191A26D400552F85 /* PaintAnnotationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434DA876191A26D300552F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				435CF0F51920B81800028B02 /* AVFoundation.framework */,
+				434DA877191A26D300552F85 /* Foundation.framework */,
+				434DA879191A26D300552F85 /* CoreGraphics.framework */,
+				434DA87B191A26D300552F85 /* UIKit.framework */,
+				434DA890191A26D400552F85 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		434DA87D191A26D300552F85 /* PaintAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				434DA886191A26D300552F85 /* AppDelegate.h */,
+				434DA887191A26D300552F85 /* AppDelegate.m */,
+				434DA889191A26D300552F85 /* Images.xcassets */,
+				434DA87E191A26D300552F85 /* Supporting Files */,
+				43E1E8AA1920DFB5004AFF3E /* HomeViewController.h */,
+				43E1E8AB1920DFB5004AFF3E /* HomeViewController.m */,
+				434DA8A6191A271400552F85 /* PaintViewController.h */,
+				434DA8A7191A271400552F85 /* PaintViewController.m */,
+				43BA3F4D1921FFA40085A670 /* PaintViewController.xib */,
+				434DA8A9191A273F00552F85 /* MainViewController.h */,
+				434DA8AA191A273F00552F85 /* MainViewController.m */,
+				434DA8AC191A28D700552F85 /* MainView.h */,
+				434DA8AD191A28D700552F85 /* MainView.m */,
+				434DA8AE191A28D700552F85 /* Squiggle.h */,
+				434DA8AF191A28D700552F85 /* Squiggle.m */,
+			);
+			path = PaintAnnotation;
+			sourceTree = "<group>";
+		};
+		434DA87E191A26D300552F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43E1E8AD1920E2DB004AFF3E /* img.png */,
+				434DA87F191A26D300552F85 /* PaintAnnotation-Info.plist */,
+				434DA880191A26D300552F85 /* InfoPlist.strings */,
+				434DA883191A26D300552F85 /* main.m */,
+				434DA885191A26D300552F85 /* PaintAnnotation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		434DA896191A26D400552F85 /* PaintAnnotationTests */ = {
+			isa = PBXGroup;
+			children = (
+				434DA89C191A26D400552F85 /* PaintAnnotationTests.m */,
+				434DA897191A26D400552F85 /* Supporting Files */,
+			);
+			path = PaintAnnotationTests;
+			sourceTree = "<group>";
+		};
+		434DA897191A26D400552F85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				434DA898191A26D400552F85 /* PaintAnnotationTests-Info.plist */,
+				434DA899191A26D400552F85 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434DA873191A26D300552F85 /* PaintAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434DA8A0191A26D400552F85 /* Build configuration list for PBXNativeTarget "PaintAnnotation" */;
+			buildPhases = (
+				434DA870191A26D300552F85 /* Sources */,
+				434DA871191A26D300552F85 /* Frameworks */,
+				434DA872191A26D300552F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintAnnotation;
+			productName = PaintAnnotation;
+			productReference = 434DA874191A26D300552F85 /* PaintAnnotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		434DA88E191A26D400552F85 /* PaintAnnotationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434DA8A3191A26D400552F85 /* Build configuration list for PBXNativeTarget "PaintAnnotationTests" */;
+			buildPhases = (
+				434DA88B191A26D400552F85 /* Sources */,
+				434DA88C191A26D400552F85 /* Frameworks */,
+				434DA88D191A26D400552F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434DA895191A26D400552F85 /* PBXTargetDependency */,
+			);
+			name = PaintAnnotationTests;
+			productName = PaintAnnotationTests;
+			productReference = 434DA88F191A26D400552F85 /* PaintAnnotationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434DA86C191A26D300552F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cloudeeva;
+				TargetAttributes = {
+					434DA88E191A26D400552F85 = {
+						TestTargetID = 434DA873191A26D300552F85;
+					};
+				};
+			};
+			buildConfigurationList = 434DA86F191A26D300552F85 /* Build configuration list for PBXProject "PaintAnnotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 434DA86B191A26D300552F85;
+			productRefGroup = 434DA875191A26D300552F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434DA873191A26D300552F85 /* PaintAnnotation */,
+				434DA88E191A26D400552F85 /* PaintAnnotationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434DA872191A26D300552F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E1E8AE1920E2DB004AFF3E /* img.png in Resources */,
+				434DA882191A26D300552F85 /* InfoPlist.strings in Resources */,
+				434DA88A191A26D300552F85 /* Images.xcassets in Resources */,
+				43BA3F4E1921FFA40085A670 /* PaintViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434DA88D191A26D400552F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434DA89B191A26D400552F85 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434DA870191A26D300552F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434DA8B1191A28D700552F85 /* Squiggle.m in Sources */,
+				434DA8B0191A28D700552F85 /* MainView.m in Sources */,
+				434DA888191A26D300552F85 /* AppDelegate.m in Sources */,
+				434DA8A8191A271400552F85 /* PaintViewController.m in Sources */,
+				434DA884191A26D300552F85 /* main.m in Sources */,
+				43E1E8AC1920DFB5004AFF3E /* HomeViewController.m in Sources */,
+				434DA8AB191A273F00552F85 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434DA88B191A26D400552F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434DA89D191A26D400552F85 /* PaintAnnotationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434DA895191A26D400552F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434DA873191A26D300552F85 /* PaintAnnotation */;
+			targetProxy = 434DA894191A26D400552F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		434DA880191A26D300552F85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434DA881191A26D300552F85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		434DA899191A26D400552F85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				434DA89A191A26D400552F85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		434DA89E191A26D400552F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		434DA89F191A26D400552F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		434DA8A1191A26D400552F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintAnnotation/PaintAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "PaintAnnotation/PaintAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		434DA8A2191A26D400552F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintAnnotation/PaintAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "PaintAnnotation/PaintAnnotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		434DA8A4191A26D400552F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaintAnnotation.app/PaintAnnotation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintAnnotation/PaintAnnotation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PaintAnnotationTests/PaintAnnotationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		434DA8A5191A26D400552F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaintAnnotation.app/PaintAnnotation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintAnnotation/PaintAnnotation-Prefix.pch";
+				INFOPLIST_FILE = "PaintAnnotationTests/PaintAnnotationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434DA86F191A26D300552F85 /* Build configuration list for PBXProject "PaintAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434DA89E191A26D400552F85 /* Debug */,
+				434DA89F191A26D400552F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434DA8A0191A26D400552F85 /* Build configuration list for PBXNativeTarget "PaintAnnotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434DA8A1191A26D400552F85 /* Debug */,
+				434DA8A2191A26D400552F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434DA8A3191A26D400552F85 /* Build configuration list for PBXNativeTarget "PaintAnnotationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434DA8A4191A26D400552F85 /* Debug */,
+				434DA8A5191A26D400552F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434DA86C191A26D300552F85 /* Project object */;
+}
